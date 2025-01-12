@@ -1,0 +1,30 @@
+.destination{
+    margin: 4rem 6rem;
+    text-align: center;
+}
+
+.destination h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.destination p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.destination img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 850px) {
+    .destination{
+        margin: 4rem 2rem;
+    }
+
+    .image{
+        width: 50%;
+        margin: 1.8rem 0;
+    }
+}

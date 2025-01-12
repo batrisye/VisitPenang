@@ -1,8 +1,8 @@
 import './FoodHStyle.css'
 import FoodHData from './FoodHData'
-import Nature1 from '../assets/NaturePics/RP01.avif'
-import Nature3 from '../assets/NaturePics/EP1.png';
 import HokkienMee from '../assets/FoodPics/HokkienMee.png';
+import TehLimao from '../assets/FoodPics/TehLimao.png';
+import TehTarik from '../assets/FoodPics/TehTarik.png';
 
 function FoodH () {
     return(
@@ -10,7 +10,7 @@ function FoodH () {
             <div className='foodcard'>
                 <FoodHData 
                     to='/FoodPage'
-                    image={Nature1}
+                    image={TehLimao}
                     heading ='Malay Food'
                 />
                 
@@ -21,7 +21,7 @@ function FoodH () {
                 />
                 <FoodHData 
                 to='/FoodPage'
-                image={Nature3}
+                image={TehTarik}
                 heading ='Indian Food'
                 />
             </div>

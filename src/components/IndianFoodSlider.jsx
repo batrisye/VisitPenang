@@ -1,7 +1,6 @@
 import React from 'react';
 import './CardsSlider.css';
-import Cendol from '../assets/FoodPics/Cendol.png';
-import CharKT from '../assets/FoodPics/CharKT.png';
+
 import HokkienMee from '../assets/FoodPics/HokkienMee.png';
 import Laksa from '../assets/FoodPics/Laksa.png';
 import TehLimao from '../assets/FoodPics/TehLimao.png';

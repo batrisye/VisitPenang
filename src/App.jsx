@@ -14,6 +14,7 @@ import NaturePage from './pages/NaturePage';
 import RecreationPage from './pages/RecreationPage';
 import ParkPage from './pages/ParkPage';
 import AdventurePage from './pages/AdventurePage';
+import HeritagePage from './pages/HeritagePage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/RecreationPage" element={<RecreationPage/>}/>
           <Route path='/ParkPage' element={<ParkPage/>}/>
           <Route path='/AdventurePage' element={<AdventurePage/>} />
+          <Route path="/HeritagePage" element={<HeritagePage />} />
         </Routes>
       </div>
     </Router>

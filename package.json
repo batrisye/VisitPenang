@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@rollup/plugin-inject": "^5.0.5",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-owl-carousel": "^2.3.3",
@@ -28,5 +30,18 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "vite": "^6.0.7"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadeed-5N-100E/VisitPenang-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadeed-5N-100E/VisitPenang-website/issues"
+  },
+  "homepage": "https://github.com/Sadeed-5N-100E/VisitPenang-website#readme"
 }

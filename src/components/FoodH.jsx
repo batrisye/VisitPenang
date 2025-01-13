@@ -1,16 +1,16 @@
 import './FoodHStyle.css'
 import FoodHData from './FoodHData'
 import HokkienMee from '../assets/FoodPics/HokkienMee.png';
-import TehLimao from '../assets/FoodPics/TehLimao.png';
-import TehTarik from '../assets/FoodPics/TehTarik.png';
+import NasiLemak from '../assets/FoodPics/NasiLemak.png';
 
+import Thosai from '../assets/FoodPics/Thosai.png';
 function FoodH () {
     return(
         <div className="food">
             <div className='foodcard'>
                 <FoodHData 
                     to='/FoodPage'
-                    image={TehLimao}
+                    image={NasiLemak}
                     heading ='Malay Food'
                 />
                 
@@ -21,7 +21,7 @@ function FoodH () {
                 />
                 <FoodHData 
                 to='/FoodPage'
-                image={TehTarik}
+                image={Thosai}
                 heading ='Indian Food'
                 />
             </div>

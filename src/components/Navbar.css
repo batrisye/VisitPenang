@@ -27,13 +27,24 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  opacity : 0.9;
 }
 
 .logo {
   height: 60px;
   object-fit: contain;
 }
-
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+.visit-penang {
+  margin-left: 10px; /* Adjust margin as needed */
+  font-size: 30px; 
+  font-weight: bold;
+  color: #fff; /* Or any desired color */
+  font-family: 'Lobster', cursive; /* Example of a decorative font */ 
+}
 /* Navigation links container */
 .nav-links {
   display: flex;

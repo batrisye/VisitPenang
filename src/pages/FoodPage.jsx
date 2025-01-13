@@ -34,7 +34,7 @@ const FoodPage = () => {
       <h2 style={{marginTop: "2rem", textAlign: "center",fontSize: "2rem",fontWeight: "bold"}}> Breakfast and other light dishes</h2>
       <p style={{textAlign: "center",fontSize: "1rem",fontWeight: "bold",color: "black"}}>  Thosai , Satay and the iconic coconut rise dish - Nasi Lemak are some of the must try dishes in Penang. </p>
       <IndianFoodSlider/>
-       container with text for best restaurants in Penang with good 
+     
       <div style={{
         padding: "2rem",
         margin: "2rem auto",

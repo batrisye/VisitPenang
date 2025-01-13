@@ -7,7 +7,10 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={logo} alt="Logo" className="logo" />
+      <div className="logo-container"> 
+        <img src={logo} alt="Logo" className="logo" />
+        <h1 className="visit-penang">Visit Penang</h1> 
+      </div>
       <div className="nav-links">
         <ul>
           <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
